@@ -1,3 +1,4 @@
+/*elementos base*/
 :root{
     --cinza: #2F4F4F;
     --preto: #141414;
@@ -9,47 +10,10 @@
     box-sizing: border-box;
 }
 
-/*elementos base*/
 body{
-    background: var(--preto);
-    font-family: 'Arial', Times, serif;
+    background-image: linear-gradient(to bottom, #0D0D0D, #403F3F, #595859, #403F3F, #0D0D0D);
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     color: white;
-}
-
-header .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
-}
-
-header .botao{
-    background-color: rgba(0, 0, 0, .50);
-    border: none;
-    color: white;
-    padding: 10px;
-    margin-right: 6px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: .4s ease all;
-    border-radius: 10%;
-}
-
-header .logo{
-    color: var(--cinza);
-    font-family: "Arial Black";
-    font-size: 40px;
-    
-}
-
-header nav a{
-    text-decoration: none;
-    color: #AAA;
-    margin-right: 30px;
-}
-
-header nav a:hover{
-    color: #fff;
 }
 
 /*manga principal*/
@@ -89,55 +53,6 @@ header nav a:hover{
     border-radius: 10%;
 }
 
-.search-box{
-    
-    background: rgba(53, 51, 51, 0.5);
-    color: white;
-    height: 20px;
-    
-    border-radius: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 1px;
-}
-
-.search-btn i{
-    color: gray;
-    background: none;
-}
-
-.search-txt{
-    border: none;
-    background: none;
-    outline: none;
-    padding: 0;
-    color: white;
-    font-size: 14px;
-    line-height: 20px;
-    width: 0;
-    transition: .3s;
-}
-
-.search-btn{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: var(--preto);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: gray;
-}
-
-.search-box:hover > .search-txt{
-    width: 140px;
-    padding: 0 10px;
-}
-
-.search-box:hover > .search-btn{
-    background: honeydew;
-}
 
 .botao:hover{
     background-color: white;
