@@ -1,0 +1,16 @@
+#carouselExample .carousel-caption {
+    top: 40%;
+    font-family: 'Roboto';
+    border-radius: 10px;
+    background: #00000080;
+    display: flex;
+    text-align: justify;
+    padding: 15px 30px 15px 30px;
+    color: beige;
+
+}
+
+#carouselExample .carousel-caption p {
+    font-size: 24px;
+}
+

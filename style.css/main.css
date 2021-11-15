@@ -12,29 +12,31 @@
 body{
     background-image: linear-gradient(to bottom, #0D0D0D, #403F3F, #595859, #403F3F, #0D0D0D);
     font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
     color: white;
+    padding: 15px;
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .4s ease all;
+    border-radius: 10%;
 }
 
-/*manga principal*/
-.manga-principal{
-    font-size: 16px;
-    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/logo-op2.png');
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    
+
+.botao:hover{
+    background-color: white;
+    color: black;
 }
 
-.manga-principal .descricao{
-    margin-bottom: 40px;
-    margin-top: 10px;
+.botao i{
+    margin-right: 8px;
 }
 
+/*manga principal
 .titulo{
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
@@ -62,15 +64,6 @@ body{
     margin-right: 8px;
 }
 
-.container{
-    margin-left: 20px;
-}
-
-.manga-principal .container{
-    width: 600px;
-    text-align: justify;
-}
-
 .box-manga{
     height: 350px;
     width: 90%;
@@ -94,7 +87,7 @@ body{
     cursor: pointer;
 }
 
-/*Modal bases*/
+Modal bases*/
 
 /*.modal-container{
     background: rgba(0, 0, 0, .5);
