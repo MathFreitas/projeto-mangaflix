@@ -4,7 +4,7 @@
     color: white;
     height: 32px;
     width: 30vh;
-    
+    box-sizing: border-box;
     border-radius: 50px;
     display: flex;
     justify-content: end;

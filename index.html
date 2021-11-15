@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css/main.css">
     <link rel="stylesheet" href="style.css/search.css">
     <link rel="stylesheet" href="style.css/nav.css">
+    <link rel="stylesheet" href="style.css/responsive.css">
     <link rel="stylesheet" href="style.css/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style.css/owl/owl.theme.default.min.css">
     <title>MangaFlix</title>
@@ -17,12 +18,17 @@
         <nav>
 
             <a class="logo">MangaFlix</a>
-            <a href="#">Inicio</a>
-            <a href="#">Mangas</a>
-            <a href="#">Novel</a>
-            <a href="#">Categorias</a>
-            <a href="#">Lançamentos</a>
-
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Novel</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Lançamentos</a></li>
+            </ul>
             <div class="search-box">
                 <input type="text" class="search-txt" placeholder="Pesquisar"> 
                 <a href="#" class="search-btn">
@@ -178,7 +184,7 @@
     <!-- <Script src="/modal/modal.js"></Script>*/-->
 
 
-
+    <script src="/js/mobile-navbar.js"></script>
     <script src="https://kit.fontawesome.com/eb111910dd.js"></script>
     <script src="/js/owl/jquery.min.js"></script>
     <script src="/js/owl/owl.carousel.min.js"></script>
