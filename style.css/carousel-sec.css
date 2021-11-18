@@ -1,5 +1,5 @@
 
-#carouselSecundario .row {
+.carousel-variedades .row {
     display: flex;
     align-items: center;
     text-align: center;
@@ -10,28 +10,30 @@
 
 }
 
-
-#carouselSecundario {
+.carousel-variedades {
     margin-top: 20px;
+    margin-bottom: 3px;
 }
-#carouselSecundario .image {
+
+.carousel-variedades .image {
     height: 350px;
     min-width: 147px;
     max-width: 90%;
     margin: 0;
     cursor: pointer;
     z-index: 2;
+    border-radius: 6px;
 }
 
 .image:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
-#carouselSecundario h2{
+.carousel-variedades h2{
     background: #262626;
 }
 
-#carouselSecundario h2{
+.carousel-variedades h2{
 
 -moz-border-radius-bottomleft: 15px;
 -moz-border-radius-bottomright: 2px;
@@ -54,4 +56,9 @@ line-height: 40px;
 margin-bottom: 10px;
 margin-top: -3px;
 padding: 0 15px;
+
+}
+
+#carouselTerciario h2{
+    margin-top: 15px;
 }
